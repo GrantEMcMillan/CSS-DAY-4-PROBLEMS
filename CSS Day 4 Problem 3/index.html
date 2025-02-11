@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Verticle Margin Collapsing</title>
+  </head>
+  <body>
+    <header role="banner">
+      <h1>Verticle Margin Collapsing</h1>
+    </header>
+    <main role="main">
+      <div class="top"></div>
+      <div class="bottom"></div>
+    </main>
+    <footer role="doc-footnote">
+      <p>
+        When two margins meet (bottom: 10, top:10) the margin between two
+        elements remains at the value of the largest margin, rather than added,
+        due to margin collapse. (bottom:10, top:10 = margin of 10, rather than
+        20.
+      </p>
+    </footer>
+  </body>
+</html>

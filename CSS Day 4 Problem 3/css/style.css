@@ -1,0 +1,14 @@
+.top {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.bottom {
+  background-color: green;
+  margin-top: 10px;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
+}
