@@ -1,0 +1,15 @@
+.boxOne {
+  box-sizing: content-box;
+  background-color: aqua;
+  width: 200px;
+  border: 5px;
+  padding: 10px;
+}
+
+.boxTwo {
+  box-sizing: border-box;
+  background-color: aquamarine;
+  width: 200px;
+  border: 5px;
+  padding: 10px;
+}
